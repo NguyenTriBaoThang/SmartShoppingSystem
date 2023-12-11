@@ -1,5 +1,5 @@
 <p align="center">
-	<img loading="lazy" src="./assets/images/law.png" alt="Smart Shopping System" height="150">
+	<img loading="lazy" src="./assets/images/smart-shopping-system.png" alt="Smart Shopping System" height="150">
 </p>
 
 <h1 align="center">Smart Shopping System</h1>
