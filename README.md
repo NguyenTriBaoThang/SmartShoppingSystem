@@ -71,22 +71,12 @@
 <details>
 <summary>Expand contents</summary>
 
-- [What is Law Knowledge?](#what-is-law-knowledge)
 - [Tentative technologies](#tentative-technologies)
-- [Building blocks](#building-blocks)
 - [Getting Started](#getting-started)
   - [🛠️ Prerequisites](#️-prerequisites)
-  - [📦 Dataset](#-dataset)
   - [🧑‍💻 Setup](#-setup)
-  - [🚀 Running](#-running)
   - [🧪 Testing](#-testing)
   - [🧩 Other](#-other)
-- [Dependency Graph](#dependency-graph)
-- [CI/CD](#cicd)
-- [Contributing](#contributing)
-  - [📖 Contributing Guidelines](#-contributing-guidelines)
-  - [💁 Want to Help?](#-want-to-help)
-  - [🫂 Code of Conduct](#-code-of-conduct)
 - [Contributor](#contributor)
 - [Support and Organization](#support-and-organization)
 - [License](#license)
