@@ -64,7 +64,6 @@
 - 📖 Document Organization and Linking
 - 📦 Terminology Extraction
 - 🔍 Quick Search for Related Content
-- 🤖 User Query Support
 
 <h1>Table of Contents</h1>
 
@@ -88,13 +87,6 @@
 - [Next.js](https://nextjs.org/)
 - [NestJS](https://nestjs.com/)
 - [Python](https://www.python.org/)
-- [Pulumi](https://www.pulumi.com/)
-- [Kafka](https://kafka.apache.org/)
-- [ArgoCD](https://argoproj.github.io/argo-cd/)
-- [Jenkins](https://www.jenkins.io/)
-- [Kubernetes](https://kubernetes.io/)
-- [OpenTelemetry](https://opentelemetry.io/)
-- [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), [Loki](https://grafana.com/oss/loki/), [Tempo](https://grafana.com/oss/tempo/), [Promtail](https://grafana.com/docs/loki/latest/send-data/promtail/)
 
 # Getting Started
 
@@ -190,6 +182,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 	        <p>
 	          <a href="https://github.com/NguyenTriBaoThang/SmartShoppingSystem/commits?author=NguyenTriBaoThang" title="Developer">💻</a>
               <a href="#docs" title="Documentation">📖</a>
+	        </p>
+			</td>
+			<td align="center" valign="top">
+					<img src="https://github.com/nguyenthuanan22.png?s=150" loading="lazy" width="150" height="150">
+	        <br>
+	        <a href="https://github.com/nguyenthuanan22">Thuan An</a>
+	        <p>
+	          <a href="https://github.com/NguyenTriBaoThang/SmartShoppingSystem/commits?author=nguyenthuanan22" title="Developer">💻</a>
 	        </p>
 			</td>
             <td align="center" valign="top">
