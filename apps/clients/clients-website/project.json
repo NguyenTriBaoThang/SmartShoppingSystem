@@ -1,0 +1,79 @@
+{
+  "name": "clients-clients-website",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/clients/clients-website/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/clients/clients-website",
+        "index": "apps/clients/clients-website/src/index.html",
+        "baseHref": "/",
+        "main": "apps/clients/clients-website/src/main.tsx",
+        "tsConfig": "apps/clients/clients-website/tsconfig.app.json",
+        "assets": [
+          "apps/clients/clients-website/src/favicon.ico",
+          "apps/clients/clients-website/src/assets"
+        ],
+        "styles": ["apps/clients/clients-website/src/styles.scss"],
+        "scripts": [],
+        "webpackConfig": "apps/clients/clients-website/webpack.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/clients/clients-website/src/environments/environment.ts",
+              "with": "apps/clients/clients-website/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "clients-clients-website:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "clients-clients-website:build:development"
+        },
+        "production": {
+          "buildTarget": "clients-clients-website:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/clients/clients-website/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}
