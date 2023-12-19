@@ -185,11 +185,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 	        </p>
 			</td>
 			<td align="center" valign="top">
-					<img src="https://github.com/nguyenthuanan22.png?s=150" loading="lazy" width="150" height="150">
+					<img src="https://github.com/thuananwork.png?s=150" loading="lazy" width="150" height="150">
 	        <br>
-	        <a href="https://github.com/nguyenthuanan22">Thuan An</a>
+	        <a href="https://github.com/thuananwork">Thuan An</a>
 	        <p>
-	          <a href="https://github.com/NguyenTriBaoThang/SmartShoppingSystem/commits?author=nguyenthuanan22" title="Developer">💻</a>
+	          <a href="https://github.com/NguyenTriBaoThang/SmartShoppingSystem/commits?author=thuananwork" title="Developer">💻</a>
 	        </p>
 			</td>
             <td align="center" valign="top">
