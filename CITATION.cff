@@ -1,0 +1,13 @@
+cff-version: 1.0.0
+title: "Smart Shopping System: based on the user's recent shopping receipts, the application uses a neural network to suggest products or services that the user may be interested in in the future. "
+message: >-
+  If you use this application, please cite it using these metadata.
+type: software
+authors:
+  - family-names: Hutech
+    given-names: University
+  - name: 'Contributors to Smart Shopping System'
+repository-code: 'https://github.com/NguyenTriBaoThang/SmartShoppingSystem'
+abstract: >-
+  This repository hosts an application that allows users to shop online quickly and helps users find similar goods faster.
+license: MIT
